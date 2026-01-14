@@ -127,18 +127,22 @@ Typical folder layout:
 
     project/
     │
-    ├── notebooks/
-    ├── data_raw/
-    ├── data_intermediate/
+    ├── data/
+    ├── docs/
     ├── data_outputs_YYYYMMDD_HHMMSS/
     │   ├── cleaned_data.csv
     │   ├── model_table_aligned.csv
     │   ├── lsoa_subset.geojson
     │   ├── spatial_metrics.csv
-    │   ├── diagnostics/
-    │   └── images/
+    ├── src/
+    │   ├── Crime.py
+    │   ├── ETL.jpg
+    │   ├── README.md
+    └── .gitignore
+    └── Crime.ipynb
+    └── ETL.jpg
+    └── LICENSE
     └── README.md
-
 ***
 
 ## **7. Requirements**
@@ -173,4 +177,5 @@ It **must not** be used for person‑level prediction, profiling, or individual 
 *   Code and analytical pipeline authors own
 
 ***
+
 
