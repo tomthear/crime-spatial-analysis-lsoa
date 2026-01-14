@@ -26,11 +26,11 @@ This project builds a complete, reproducible end‑to‑end workflow for analysi
 
 ## **2. Data Sources**
 
-*   **Street-level crime** (Home Office).
-*   **Outcomes data** (Home Office).
-*   **Census 2021: TS067, TS044** (ONS).
+*   **Street-level crime** (https://data.police.uk/data/archive/).
+*   **Outcomes data** (https://data.police.uk/data/archive/).
+*   **Census 2021: TS067, TS044** (https://data.police.uk/data/archive/).
 *   **Population estimates 2015–2022** (https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates).
-*   **ONS LSOA/MSOA/LAD lookup** (PCD OA21 → LSOA/MSOA/LAD).
+*   **ONS LSOA/MSOA/LAD lookup** (https://geoportal.statistics.gov.uk/datasets/80592949bebd4390b2cbe29159a75ef4).
 *   **ONS LSOA 2021 boundaries** (https://borders.ukdataservice.ac.uk/easy_download_data.html?data=England_lsoa_2021).
 *   **Administrative Areas** (https://www.doogal.co.uk/AdministrativeAreas).
 
@@ -173,3 +173,4 @@ It **must not** be used for person‑level prediction, profiling, or individual 
 *   Code and analytical pipeline authors own
 
 ***
+
